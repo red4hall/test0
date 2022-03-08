@@ -26,4 +26,4 @@ jobs:
           ./gradlew projects
       - name: Build
         run: |
-          ./gradlew :clean :assemble
+          ./gradlew clean assemble
