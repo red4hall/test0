@@ -4,6 +4,7 @@ jobs:
   build:
     runs-on: ${{ matrix.os }}
     strategy:
+      fail-fast: false
       matrix:
         strategy:
         os: [ubuntu-latest, macOS-latest, windows-latest]
